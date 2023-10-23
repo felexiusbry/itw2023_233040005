@@ -1,8 +1,9 @@
 <html>
     <head>
-        <title>Latihan 1a</title>
+        <title>Format Dasar File Dokumen HTML</title>
     </head>
-    <body>
-
+    <body bgcolor="aqua">
+        <!-- Ini adalah keterangan yang ditulis dengan diapit penanda komentar dan tidak ditampilkan oleh web browser -->
+        ini isinya:)
     </body>
 </html>
