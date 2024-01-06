@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GRID</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">Balenciaga</h2>
+          <p class="sub-heading">Darth Vader & Stormtrooper</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">€1.499,00 EUR*</h4>
+          <p class="item">Balenciaga Jacket</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">€883,57 EUR*</h4>
+          <p class="item">Balenciaga Triple S</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Balenciaga</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <section class="services">
+        <div class="service">
+          <div class="icon">1</div>
+          <h3>Balenciaga Reversible hoodie</h3>
+          <p>
+            This knit hoodie with a logo from a Spanish fashion house shows everything underneath because of the ripped details and sloppy hems
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">2</div>
+          <h3>Balenciaga Denim Style</h3>
+          <p>
+            Denim Style Jacket in black grainy soft buffalo skin is from look 60 of Balenciaga's Summer 22, Red Carpet Collection.
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">3</div>
+          <h3>Balenciaga Triple S</h3>
+          <p>
+            Balenciaga's latest collection, called Triple S Clear Sole, has a three-layer sole. These sneakers, made from various materials such as sheepskin, cow leather and polyester, come in neutral colors—white, cream and black. 
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">4</div>
+          <h3>Balenciaga</h3>
+          <p>
+           Balenciaga is a luxury fashion house founded in 1919 by the Spanish couturier Cristóbal Balenciaga in San Sebastian, Spain, and currently based in Paris. Balenciaga produces ready-to-wear footwear, handbags, and accessories, and licenses its name and branding to Coty for fragrances.[2] It is currently owned by the French corporation Kering.
+          </p>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="https://source.unsplash.com/random/201x201" alt=""></img>
+        <img src="https://source.unsplash.com/random/202x202" alt=""></img>
+        <img src="https://source.unsplash.com/random/203x203" alt=""></img>
+        <img src="https://source.unsplash.com/random/204x204" alt=""></img>
+        <img src="https://source.unsplash.com/random/205x205" alt=""></img>
+        <img src="https://source.unsplash.com/random/206x206" alt=""></img>
+        <img src="https://source.unsplash.com/random/207x207" alt=""></img>
+        <img src="https://source.unsplash.com/random/208x208" alt=""></img>
+        <img src="https://source.unsplash.com/random/209x209" alt=""></img>
+        <img src="https://source.unsplash.com/random/210x210" alt=""></img>
+        
+
+  
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
